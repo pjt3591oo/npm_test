@@ -1,6 +1,6 @@
 {
   "name": "pjt3591oo",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "멍개의 npm 배포 테스트",
   "author": {
     "name": "pjt3591oo",
@@ -15,8 +15,11 @@
   "bugs": {
     "url": "https://github.com/pjt3591oo/npm_text/issues"
   },
-  "main": "./lib/test.js",
-  "bin": "./lib/test.js",
+  "main": "./lib/test1.js",
+  "bin": {
+        "pjt3591oo": "./lib/test.js"
+  },
+  "preferGlobal": true,
   "dependencies": {
     "commander": "^2.10.0"
   },
@@ -28,6 +31,8 @@
     "node": ">= 0.4.0"
   },
   "keywords": [
-    "test"
+    "test",
+      "pjt3591oo",
+      "mung"
   ]
 }
