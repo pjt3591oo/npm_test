@@ -1,0 +1,33 @@
+{
+  "name": "pjt3591oo",
+  "version": "0.1.1",
+  "description": "멍개의 npm 배포 테스트",
+  "author": {
+    "name": "pjt3591oo",
+    "email": "pjt3591oo@gmail.com",
+    "url": ""
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjt3591oo/npm_text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pjt3591oo/npm_text/issues"
+  },
+  "main": "./lib/test.js",
+  "bin": "./lib/test.js",
+  "dependencies": {
+    "commander": "^2.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "keywords": [
+    "test"
+  ]
+}
